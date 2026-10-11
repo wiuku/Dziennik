@@ -1,0 +1,1744 @@
+<!doctype html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atrakcyjność .md | Exported</title>
+    <style>
+      .markdown-body {
+  --base-size-4: 0.25rem;
+  --base-size-8: 0.5rem;
+  --base-size-16: 1rem;
+  --base-text-weight-normal: 400;
+  --base-text-weight-medium: 500;
+  --base-text-weight-semibold: 600;
+  --fontStack-monospace: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  .markdown-body,
+  [data-theme="dark"] {
+    /*dark*/
+    color-scheme: dark;
+    --focus-outlineColor: #1f6feb;
+    --fgColor-default: #e6edf3;
+    --fgColor-muted: #8d96a0;
+    --fgColor-accent: #4493f8;
+    --fgColor-success: #3fb950;
+    --fgColor-attention: #d29922;
+    --fgColor-danger: #f85149;
+    --fgColor-done: #ab7df8;
+    --bgColor-default: #0d1117;
+    --bgColor-muted: #161b22;
+    --bgColor-neutral-muted: #6e768166;
+    --bgColor-attention-muted: #bb800926;
+    --borderColor-default: #30363d;
+    --borderColor-muted: #30363db3;
+    --borderColor-neutral-muted: #6e768166;
+    --borderColor-accent-emphasis: #1f6feb;
+    --borderColor-success-emphasis: #238636;
+    --borderColor-attention-emphasis: #9e6a03;
+    --borderColor-danger-emphasis: #da3633;
+    --borderColor-done-emphasis: #8957e5;
+    --color-prettylights-syntax-comment: #8b949e;
+    --color-prettylights-syntax-constant: #79c0ff;
+    --color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
+    --color-prettylights-syntax-entity: #d2a8ff;
+    --color-prettylights-syntax-storage-modifier-import: #c9d1d9;
+    --color-prettylights-syntax-entity-tag: #7ee787;
+    --color-prettylights-syntax-keyword: #ff7b72;
+    --color-prettylights-syntax-string: #a5d6ff;
+    --color-prettylights-syntax-variable: #ffa657;
+    --color-prettylights-syntax-brackethighlighter-unmatched: #f85149;
+    --color-prettylights-syntax-brackethighlighter-angle: #8b949e;
+    --color-prettylights-syntax-invalid-illegal-text: #f0f6fc;
+    --color-prettylights-syntax-invalid-illegal-bg: #8e1519;
+    --color-prettylights-syntax-carriage-return-text: #f0f6fc;
+    --color-prettylights-syntax-carriage-return-bg: #b62324;
+    --color-prettylights-syntax-string-regexp: #7ee787;
+    --color-prettylights-syntax-markup-list: #f2cc60;
+    --color-prettylights-syntax-markup-heading: #1f6feb;
+    --color-prettylights-syntax-markup-italic: #c9d1d9;
+    --color-prettylights-syntax-markup-bold: #c9d1d9;
+    --color-prettylights-syntax-markup-deleted-text: #ffdcd7;
+    --color-prettylights-syntax-markup-deleted-bg: #67060c;
+    --color-prettylights-syntax-markup-inserted-text: #aff5b4;
+    --color-prettylights-syntax-markup-inserted-bg: #033a16;
+    --color-prettylights-syntax-markup-changed-text: #ffdfb6;
+    --color-prettylights-syntax-markup-changed-bg: #5a1e02;
+    --color-prettylights-syntax-markup-ignored-text: #c9d1d9;
+    --color-prettylights-syntax-markup-ignored-bg: #1158c7;
+    --color-prettylights-syntax-meta-diff-range: #d2a8ff;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: #484f58;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .markdown-body,
+  [data-theme="light"] {
+    /*light*/
+    color-scheme: light;
+    --focus-outlineColor: #0969da;
+    --fgColor-default: #1f2328;
+    --fgColor-muted: #636c76;
+    --fgColor-accent: #0969da;
+    --fgColor-success: #1a7f37;
+    --fgColor-attention: #9a6700;
+    --fgColor-danger: #d1242f;
+    --fgColor-done: #8250df;
+    --bgColor-default: #ffffff;
+    --bgColor-muted: #f6f8fa;
+    --bgColor-neutral-muted: #afb8c133;
+    --bgColor-attention-muted: #fff8c5;
+    --borderColor-default: #d0d7de;
+    --borderColor-muted: #d0d7deb3;
+    --borderColor-neutral-muted: #afb8c133;
+    --borderColor-accent-emphasis: #0969da;
+    --borderColor-success-emphasis: #1a7f37;
+    --borderColor-attention-emphasis: #bf8700;
+    --borderColor-danger-emphasis: #cf222e;
+    --borderColor-done-emphasis: #8250df;
+    --color-prettylights-syntax-comment: #57606a;
+    --color-prettylights-syntax-constant: #0550ae;
+    --color-prettylights-syntax-constant-other-reference-link: #0a3069;
+    --color-prettylights-syntax-entity: #6639ba;
+    --color-prettylights-syntax-storage-modifier-import: #24292f;
+    --color-prettylights-syntax-entity-tag: #0550ae;
+    --color-prettylights-syntax-keyword: #cf222e;
+    --color-prettylights-syntax-string: #0a3069;
+    --color-prettylights-syntax-variable: #953800;
+    --color-prettylights-syntax-brackethighlighter-unmatched: #82071e;
+    --color-prettylights-syntax-brackethighlighter-angle: #57606a;
+    --color-prettylights-syntax-invalid-illegal-text: #f6f8fa;
+    --color-prettylights-syntax-invalid-illegal-bg: #82071e;
+    --color-prettylights-syntax-carriage-return-text: #f6f8fa;
+    --color-prettylights-syntax-carriage-return-bg: #cf222e;
+    --color-prettylights-syntax-string-regexp: #116329;
+    --color-prettylights-syntax-markup-list: #3b2300;
+    --color-prettylights-syntax-markup-heading: #0550ae;
+    --color-prettylights-syntax-markup-italic: #24292f;
+    --color-prettylights-syntax-markup-bold: #24292f;
+    --color-prettylights-syntax-markup-deleted-text: #82071e;
+    --color-prettylights-syntax-markup-deleted-bg: #ffebe9;
+    --color-prettylights-syntax-markup-inserted-text: #116329;
+    --color-prettylights-syntax-markup-inserted-bg: #dafbe1;
+    --color-prettylights-syntax-markup-changed-text: #953800;
+    --color-prettylights-syntax-markup-changed-bg: #ffd8b5;
+    --color-prettylights-syntax-markup-ignored-text: #eaeef2;
+    --color-prettylights-syntax-markup-ignored-bg: #0550ae;
+    --color-prettylights-syntax-meta-diff-range: #8250df;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f;
+  }
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  color: var(--fgColor-default);
+  background-color: var(--bgColor-default);
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  scroll-behavior: auto;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.markdown-body h1:hover .anchor .octicon-link:before,
+.markdown-body h2:hover .anchor .octicon-link:before,
+.markdown-body h3:hover .anchor .octicon-link:before,
+.markdown-body h4:hover .anchor .octicon-link:before,
+.markdown-body h5:hover .anchor .octicon-link:before,
+.markdown-body h6:hover .anchor .octicon-link:before {
+  width: 16px;
+  height: 16px;
+  content: ' ';
+  display: inline-block;
+  background-color: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+  mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+}
+
+.markdown-body details,
+.markdown-body figcaption,
+.markdown-body figure {
+  display: block;
+}
+
+.markdown-body summary {
+  display: list-item;
+}
+
+.markdown-body [hidden] {
+  display: none !important;
+}
+
+.markdown-body a {
+  background-color: transparent;
+  color: var(--fgColor-accent);
+  text-decoration: none;
+}
+
+.markdown-body abbr[title] {
+  border-bottom: none;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body dfn {
+  font-style: italic;
+}
+
+.markdown-body h1 {
+  margin: .67em 0;
+  font-weight: var(--base-text-weight-semibold, 600);
+  padding-bottom: .3em;
+  font-size: 2em;
+  border-bottom: 1px solid var(--borderColor-muted);
+}
+
+.markdown-body mark {
+  background-color: var(--bgColor-attention-muted);
+  color: var(--fgColor-default);
+}
+
+.markdown-body small {
+  font-size: 90%;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body sup {
+  top: -0.5em;
+}
+
+.markdown-body img {
+  border-style: none;
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: var(--bgColor-default);
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace;
+  font-size: 1em;
+}
+
+.markdown-body figure {
+  margin: 1em 40px;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  overflow: hidden;
+  background: transparent;
+  border-bottom: 1px solid var(--borderColor-muted);
+  height: .25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: var(--borderColor-default);
+  border: 0;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body [type=button],
+.markdown-body [type=reset],
+.markdown-body [type=submit] {
+  -webkit-appearance: button;
+  appearance: button;
+}
+
+.markdown-body [type=checkbox],
+.markdown-body [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body [type=number]::-webkit-inner-spin-button,
+.markdown-body [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+.markdown-body [type=search]::-webkit-search-cancel-button,
+.markdown-body [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body ::-webkit-input-placeholder {
+  color: inherit;
+  opacity: .54;
+}
+
+.markdown-body ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  appearance: button;
+  font: inherit;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body ::placeholder {
+  color: var(--fgColor-muted);
+  opacity: 1;
+}
+
+.markdown-body hr::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body details summary {
+  cursor: pointer;
+}
+
+.markdown-body details:not([open])>*:not(summary) {
+  display: none;
+}
+
+.markdown-body a:focus,
+.markdown-body [role=button]:focus,
+.markdown-body input[type=radio]:focus,
+.markdown-body input[type=checkbox]:focus {
+  outline: 2px solid var(--focus-outlineColor);
+  outline-offset: -2px;
+  box-shadow: none;
+}
+
+.markdown-body a:focus:not(:focus-visible),
+.markdown-body [role=button]:focus:not(:focus-visible),
+.markdown-body input[type=radio]:focus:not(:focus-visible),
+.markdown-body input[type=checkbox]:focus:not(:focus-visible) {
+  outline: solid 1px transparent;
+}
+
+.markdown-body a:focus-visible,
+.markdown-body [role=button]:focus-visible,
+.markdown-body input[type=radio]:focus-visible,
+.markdown-body input[type=checkbox]:focus-visible {
+  outline: 2px solid var(--focus-outlineColor);
+  outline-offset: -2px;
+  box-shadow: none;
+}
+
+.markdown-body a:not([class]):focus,
+.markdown-body a:not([class]):focus-visible,
+.markdown-body input[type=radio]:focus,
+.markdown-body input[type=radio]:focus-visible,
+.markdown-body input[type=checkbox]:focus,
+.markdown-body input[type=checkbox]:focus-visible {
+  outline-offset: 0;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace);
+  line-height: 10px;
+  color: var(--fgColor-default);
+  vertical-align: middle;
+  background-color: var(--bgColor-muted);
+  border: solid 1px var(--borderColor-neutral-muted);
+  border-bottom-color: var(--borderColor-neutral-muted);
+  border-radius: 6px;
+  box-shadow: inset 0 -1px 0 var(--borderColor-neutral-muted);
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: var(--base-text-weight-semibold, 600);
+  line-height: 1.25;
+}
+
+.markdown-body h2 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  padding-bottom: .3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid var(--borderColor-muted);
+}
+
+.markdown-body h3 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: 1.25em;
+}
+
+.markdown-body h4 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: 1em;
+}
+
+.markdown-body h5 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: .875em;
+}
+
+.markdown-body h6 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: .85em;
+  color: var(--fgColor-muted);
+}
+
+.markdown-body p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+  padding: 0 1em;
+  color: var(--fgColor-muted);
+  border-left: .25em solid var(--borderColor-default);
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2em;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body tt,
+.markdown-body code,
+.markdown-body samp {
+  font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace);
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace);
+  font-size: 12px;
+  word-wrap: normal;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-body input::-webkit-outer-spin-button,
+.markdown-body input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body .mr-2 {
+  margin-right: var(--base-size-8, 8px) !important;
+}
+
+.markdown-body::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .absent {
+  color: var(--fgColor-danger);
+}
+
+.markdown-body .anchor {
+  float: left;
+  padding-right: 4px;
+  margin-left: -20px;
+  line-height: 1;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body details {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: var(--fgColor-default);
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 tt,
+.markdown-body h1 code,
+.markdown-body h2 tt,
+.markdown-body h2 code,
+.markdown-body h3 tt,
+.markdown-body h3 code,
+.markdown-body h4 tt,
+.markdown-body h4 code,
+.markdown-body h5 tt,
+.markdown-body h5 code,
+.markdown-body h6 tt,
+.markdown-body h6 code {
+  padding: 0 .2em;
+  font-size: inherit;
+}
+
+.markdown-body summary h1,
+.markdown-body summary h2,
+.markdown-body summary h3,
+.markdown-body summary h4,
+.markdown-body summary h5,
+.markdown-body summary h6 {
+  display: inline-block;
+}
+
+.markdown-body summary h1 .anchor,
+.markdown-body summary h2 .anchor,
+.markdown-body summary h3 .anchor,
+.markdown-body summary h4 .anchor,
+.markdown-body summary h5 .anchor,
+.markdown-body summary h6 .anchor {
+  margin-left: -40px;
+}
+
+.markdown-body summary h1,
+.markdown-body summary h2 {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.markdown-body ul.no-list,
+.markdown-body ol.no-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.markdown-body ol[type="a s"] {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body ol[type="A s"] {
+  list-style-type: upper-alpha;
+}
+
+.markdown-body ol[type="i s"] {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ol[type="I s"] {
+  list-style-type: upper-roman;
+}
+
+.markdown-body ol[type="1"] {
+  list-style-type: decimal;
+}
+
+.markdown-body div>ol:not([type]) {
+  list-style-type: decimal;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body li+li {
+  margin-top: .25em;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body table th {
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid var(--borderColor-default);
+}
+
+.markdown-body table td>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table tr {
+  background-color: var(--bgColor-default);
+  border-top: 1px solid var(--borderColor-muted);
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: var(--bgColor-muted);
+}
+
+.markdown-body table img {
+  background-color: transparent;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 20px;
+}
+
+.markdown-body .emoji {
+  max-width: none;
+  vertical-align: text-top;
+  background-color: transparent;
+}
+
+.markdown-body span.frame {
+  display: block;
+  overflow: hidden;
+}
+
+.markdown-body span.frame>span {
+  display: block;
+  float: left;
+  width: auto;
+  padding: 7px;
+  margin: 13px 0 0;
+  overflow: hidden;
+  border: 1px solid var(--borderColor-default);
+}
+
+.markdown-body span.frame span img {
+  display: block;
+  float: left;
+}
+
+.markdown-body span.frame span span {
+  display: block;
+  padding: 5px 0 0;
+  clear: both;
+  color: var(--fgColor-default);
+}
+
+.markdown-body span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.markdown-body span.align-center>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.markdown-body span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.markdown-body span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.markdown-body span.align-right>span {
+  display: block;
+  margin: 13px 0 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.markdown-body span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+
+.markdown-body span.float-left {
+  display: block;
+  float: left;
+  margin-right: 13px;
+  overflow: hidden;
+}
+
+.markdown-body span.float-left span {
+  margin: 13px 0 0;
+}
+
+.markdown-body span.float-right {
+  display: block;
+  float: right;
+  margin-left: 13px;
+  overflow: hidden;
+}
+
+.markdown-body span.float-right>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.markdown-body code,
+.markdown-body tt {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  white-space: break-spaces;
+  background-color: var(--bgColor-neutral-muted);
+  border-radius: 6px;
+}
+
+.markdown-body code br,
+.markdown-body tt br {
+  display: none;
+}
+
+.markdown-body del code {
+  text-decoration: inherit;
+}
+
+.markdown-body samp {
+  font-size: 85%;
+}
+
+.markdown-body pre code {
+  font-size: 100%;
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  color: var(--fgColor-default);
+  background-color: var(--bgColor-muted);
+  border-radius: 6px;
+}
+
+.markdown-body pre code,
+.markdown-body pre tt {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body .csv-data td,
+.markdown-body .csv-data th {
+  padding: 5px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.markdown-body .csv-data .blob-num {
+  padding: 10px 8px 9px;
+  text-align: right;
+  background: var(--bgColor-default);
+  border: 0;
+}
+
+.markdown-body .csv-data tr {
+  border-top: 0;
+}
+
+.markdown-body .csv-data th {
+  font-weight: var(--base-text-weight-semibold, 600);
+  background: var(--bgColor-muted);
+  border-top: 0;
+}
+
+.markdown-body [data-footnote-ref]::before {
+  content: "[";
+}
+
+.markdown-body [data-footnote-ref]::after {
+  content: "]";
+}
+
+.markdown-body .footnotes {
+  font-size: 12px;
+  color: var(--fgColor-muted);
+  border-top: 1px solid var(--borderColor-default);
+}
+
+.markdown-body .footnotes ol {
+  padding-left: 16px;
+}
+
+.markdown-body .footnotes ol ul {
+  display: inline-block;
+  padding-left: 16px;
+  margin-top: 16px;
+}
+
+.markdown-body .footnotes li {
+  position: relative;
+}
+
+.markdown-body .footnotes li:target::before {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -24px;
+  pointer-events: none;
+  content: "";
+  border: 2px solid var(--borderColor-accent-emphasis);
+  border-radius: 6px;
+}
+
+.markdown-body .footnotes li:target {
+  color: var(--fgColor-default);
+}
+
+.markdown-body .footnotes .data-footnote-backref g-emoji {
+  font-family: monospace;
+}
+
+.markdown-body .pl-c {
+  color: var(--color-prettylights-syntax-comment);
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: var(--color-prettylights-syntax-constant);
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: var(--color-prettylights-syntax-entity);
+}
+
+.markdown-body .pl-smi,
+.markdown-body .pl-s .pl-s1 {
+  color: var(--color-prettylights-syntax-storage-modifier-import);
+}
+
+.markdown-body .pl-ent {
+  color: var(--color-prettylights-syntax-entity-tag);
+}
+
+.markdown-body .pl-k {
+  color: var(--color-prettylights-syntax-keyword);
+}
+
+.markdown-body .pl-s,
+.markdown-body .pl-pds,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sre,
+.markdown-body .pl-sr .pl-sra {
+  color: var(--color-prettylights-syntax-string);
+}
+
+.markdown-body .pl-v,
+.markdown-body .pl-smw {
+  color: var(--color-prettylights-syntax-variable);
+}
+
+.markdown-body .pl-bu {
+  color: var(--color-prettylights-syntax-brackethighlighter-unmatched);
+}
+
+.markdown-body .pl-ii {
+  color: var(--color-prettylights-syntax-invalid-illegal-text);
+  background-color: var(--color-prettylights-syntax-invalid-illegal-bg);
+}
+
+.markdown-body .pl-c2 {
+  color: var(--color-prettylights-syntax-carriage-return-text);
+  background-color: var(--color-prettylights-syntax-carriage-return-bg);
+}
+
+.markdown-body .pl-sr .pl-cce {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-string-regexp);
+}
+
+.markdown-body .pl-ml {
+  color: var(--color-prettylights-syntax-markup-list);
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-markup-heading);
+}
+
+.markdown-body .pl-mi {
+  font-style: italic;
+  color: var(--color-prettylights-syntax-markup-italic);
+}
+
+.markdown-body .pl-mb {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-markup-bold);
+}
+
+.markdown-body .pl-md {
+  color: var(--color-prettylights-syntax-markup-deleted-text);
+  background-color: var(--color-prettylights-syntax-markup-deleted-bg);
+}
+
+.markdown-body .pl-mi1 {
+  color: var(--color-prettylights-syntax-markup-inserted-text);
+  background-color: var(--color-prettylights-syntax-markup-inserted-bg);
+}
+
+.markdown-body .pl-mc {
+  color: var(--color-prettylights-syntax-markup-changed-text);
+  background-color: var(--color-prettylights-syntax-markup-changed-bg);
+}
+
+.markdown-body .pl-mi2 {
+  color: var(--color-prettylights-syntax-markup-ignored-text);
+  background-color: var(--color-prettylights-syntax-markup-ignored-bg);
+}
+
+.markdown-body .pl-mdr {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-meta-diff-range);
+}
+
+.markdown-body .pl-ba {
+  color: var(--color-prettylights-syntax-brackethighlighter-angle);
+}
+
+.markdown-body .pl-sg {
+  color: var(--color-prettylights-syntax-sublimelinter-gutter-mark);
+}
+
+.markdown-body .pl-corl {
+  text-decoration: underline;
+  color: var(--color-prettylights-syntax-constant-other-reference-link);
+}
+
+.markdown-body [role=button]:focus:not(:focus-visible),
+.markdown-body [role=tabpanel][tabindex="0"]:focus:not(:focus-visible),
+.markdown-body button:focus:not(:focus-visible),
+.markdown-body summary:focus:not(:focus-visible),
+.markdown-body a:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.markdown-body [tabindex="0"]:focus:not(:focus-visible),
+.markdown-body details-dialog:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.markdown-body g-emoji {
+  display: inline-block;
+  min-width: 1ch;
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1em;
+  font-style: normal !important;
+  font-weight: var(--base-text-weight-normal, 400);
+  line-height: 1;
+  vertical-align: -0.075em;
+}
+
+.markdown-body g-emoji img {
+  width: 1em;
+  height: 1em;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item label {
+  font-weight: var(--base-text-weight-normal, 400);
+}
+
+.markdown-body .task-list-item.enabled label {
+  cursor: pointer;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: var(--base-size-4);
+}
+
+.markdown-body .task-list-item .handle {
+  display: none;
+}
+
+.markdown-body .task-list-item-checkbox {
+  margin: 0 .2em .25em -1.4em;
+  vertical-align: middle;
+}
+
+.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox {
+  margin: 0 -1.6em .25em .2em;
+}
+
+.markdown-body .contains-task-list {
+  position: relative;
+}
+
+.markdown-body .contains-task-list:hover .task-list-item-convert-container,
+.markdown-body .contains-task-list:focus-within .task-list-item-convert-container {
+  display: block;
+  width: auto;
+  height: 24px;
+  overflow: visible;
+  clip: auto;
+}
+
+.markdown-body ::-webkit-calendar-picker-indicator {
+  filter: invert(50%);
+}
+
+.markdown-body .markdown-alert {
+  padding: var(--base-size-8) var(--base-size-16);
+  margin-bottom: var(--base-size-16);
+  color: inherit;
+  border-left: .25em solid var(--borderColor-default);
+}
+
+.markdown-body .markdown-alert>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body .markdown-alert>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body .markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: var(--base-text-weight-medium, 500);
+  align-items: center;
+  line-height: 1;
+}
+
+.markdown-body .markdown-alert.markdown-alert-note {
+  border-left-color: var(--borderColor-accent-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--fgColor-accent);
+}
+
+.markdown-body .markdown-alert.markdown-alert-important {
+  border-left-color: var(--borderColor-done-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--fgColor-done);
+}
+
+.markdown-body .markdown-alert.markdown-alert-warning {
+  border-left-color: var(--borderColor-attention-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--fgColor-attention);
+}
+
+.markdown-body .markdown-alert.markdown-alert-tip {
+  border-left-color: var(--borderColor-success-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--fgColor-success);
+}
+
+.markdown-body .markdown-alert.markdown-alert-caution {
+  border-left-color: var(--borderColor-danger-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--fgColor-danger);
+}
+
+.markdown-body>*:first-child>.heading-element:first-child {
+  margin-top: 0 !important;
+}
+
+/* --- CUSTOM --- */
+:root {
+  --font-weight: 400;
+  --font-thin: 100;
+  --font-extralight: 200;
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  --font-black: 900;
+  --size-2-1: 2px;
+  --size-2-2: 4px;
+  --size-2-3: 6px;
+  --size-4-1: 4px;
+  --size-4-2: 8px;
+  --size-4-3: 12px;
+  --size-4-4: 16px;
+  --size-4-5: 20px;
+  --size-4-6: 24px;
+  --size-4-8: 32px;
+  --size-4-9: 36px;
+  --size-4-10: 40px;
+  --size-4-12: 48px;
+  --size-4-16: 64px;
+  --size-4-18: 72px;
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --radius-l: 12px;
+  --radius-xl: 16px;
+  --p-spacing: 1rem;
+  --p-spacing-empty: 0rem;
+  --callout-border-width: 0px;
+  --callout-border-opacity: 0.25;
+  --callout-padding: var(--size-4-3) var(--size-4-3) var(--size-4-3) var(--size-4-6);
+  --callout-radius: var(--radius-s);
+  --callout-blend-mode: var(--highlight-mix-blend-mode);
+  --callout-title-color: inherit;
+  --callout-title-padding: 0;
+  --callout-title-size: inherit;
+  --callout-title-weight: calc(var(--font-weight) + var(--bold-modifier));
+  --callout-content-padding: 0;
+  --callout-content-background: transparent;
+  --callout-bug: var(--color-red-rgb);
+  --callout-default: var(--color-blue-rgb);
+  --callout-error: var(--color-red-rgb);
+  --callout-example: var(--color-purple-rgb);
+  --callout-fail: var(--color-red-rgb);
+  --callout-important: var(--color-cyan-rgb);
+  --callout-info: var(--color-blue-rgb);
+  --callout-question: var(--color-orange-rgb);
+  --callout-success: var(--color-green-rgb);
+  --callout-summary: var(--color-cyan-rgb);
+  --callout-tip: var(--color-cyan-rgb);
+  --callout-todo: var(--color-blue-rgb);
+  --callout-warning: var(--color-orange-rgb);
+  --callout-quote: 158, 158, 158;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    --highlight-mix-blend-mode: darken;
+    --mono-rgb-0: 255, 255, 255;
+    --mono-rgb-100: 0, 0, 0;
+    --color-red-rgb: 233, 49, 71;
+    --color-red: #e93147;
+    --color-orange-rgb: 236, 117, 0;
+    --color-orange: #ec7500;
+    --color-yellow-rgb: 224, 172, 0;
+    --color-yellow: #e0ac00;
+    --color-green-rgb: 8, 185, 78;
+    --color-green: #08b94e;
+    --color-cyan-rgb: 0, 191, 188;
+    --color-cyan: #00bfbc;
+    --color-blue-rgb: 8, 109, 221;
+    --color-blue: #086ddd;
+    --color-purple-rgb: 120, 82, 238;
+    --color-purple: #7852ee;
+    --color-pink-rgb: 213, 57, 132;
+    --color-pink: #d53984;
+    --color-base-00: #ffffff;
+    --color-base-05: #fcfcfc;
+    --color-base-10: #fafafa;
+    --color-base-20: #f6f6f6;
+    --color-base-25: #e3e3e3;
+    --color-base-30: #e0e0e0;
+    --color-base-35: #d4d4d4;
+    --color-base-40: #bdbdbd;
+    --color-base-50: #ababab;
+    --color-base-60: #707070;
+    --color-base-70: #5c5c5c;
+    --color-base-100: #222222;
+    --color-accent-hsl: var(--accent-h),
+      var(--accent-s),
+      var(--accent-l);
+    --color-accent: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+    --color-accent-1: hsl(calc(var(--accent-h) - 1), calc(var(--accent-s) * 1.01), calc(var(--accent-l) * 1.075));
+    --color-accent-2: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) * 1.02), calc(var(--accent-l) * 1.15));
+    --background-secondary-alt: var(--color-base-05);
+    --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
+    --background-modifier-cover: rgba(220, 220, 220, 0.4);
+    --input-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.12),
+      0 2px 3px 0 rgba(0, 0, 0, .05),
+      0 1px 1.5px 0 rgba(0, 0, 0, .03),
+      0 1px 2px 0 rgba(0, 0, 0, .04),
+      0 0 0 0 transparent;
+    --input-shadow-hover: inset 0 0 0 1px rgba(0, 0, 0, 0.17),
+      0 2px 3px 0 rgba(0, 0, 0, .1),
+      0 1px 1.5px 0 rgba(0, 0, 0, .03),
+      0 1px 2px 0 rgba(0, 0, 0, .04),
+      0 0 0 0 transparent;
+    --shadow-s: 0px 1px 2px rgba(0, 0, 0, 0.028),
+      0px 3.4px 6.7px rgba(0, 0, 0, .042),
+      0px 15px 30px rgba(0, 0, 0, .07);
+    --shadow-l: 0px 1.8px 7.3px rgba(0, 0, 0, 0.071),
+      0px 6.3px 24.7px rgba(0, 0, 0, 0.112),
+      0px 30px 90px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --highlight-mix-blend-mode: lighten;
+    --mono-rgb-0: 0, 0, 0;
+    --mono-rgb-100: 255, 255, 255;
+    --color-red-rgb: 251, 70, 76;
+    --color-red: #fb464c;
+    --color-orange-rgb: 233, 151, 63;
+    --color-orange: #e9973f;
+    --color-yellow-rgb: 224, 222, 113;
+    --color-yellow: #e0de71;
+    --color-green-rgb: 68, 207, 110;
+    --color-green: #44cf6e;
+    --color-cyan-rgb: 83, 223, 221;
+    --color-cyan: #53dfdd;
+    --color-blue-rgb: 2, 122, 255;
+    --color-blue: #027aff;
+    --color-purple-rgb: 168, 130, 255;
+    --color-purple: #a882ff;
+    --color-pink-rgb: 250, 153, 205;
+    --color-pink: #fa99cd;
+    --color-base-00: #1e1e1e;
+    --color-base-05: #212121;
+    --color-base-10: #242424;
+    --color-base-20: #262626;
+    --color-base-25: #2a2a2a;
+    --color-base-30: #363636;
+    --color-base-35: #3f3f3f;
+    --color-base-40: #555555;
+    --color-base-50: #666666;
+    --color-base-60: #999999;
+    --color-base-70: #b3b3b3;
+    --color-base-100: #dadada;
+    --color-accent-hsl: var(--accent-h),
+      var(--accent-s),
+      var(--accent-l);
+    --color-accent: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+    --color-accent-1: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) * 1.02), calc(var(--accent-l) * 1.15));
+    --color-accent-2: hsl(calc(var(--accent-h) - 5), calc(var(--accent-s) * 1.05), calc(var(--accent-l) * 1.29));
+    --background-modifier-form-field: var(--color-base-25);
+    --background-secondary-alt: var(--color-base-30);
+    --interactive-normal: var(--color-base-30);
+    --interactive-hover: var(--color-base-35);
+    --text-accent: var(--color-accent-1);
+    --interactive-accent: var(--color-accent);
+    --interactive-accent-hover: var(--color-accent-1);
+    --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+    --background-modifier-cover: rgba(10, 10, 10, 0.4);
+    --text-selection: hsla(var(--interactive-accent-hsl), 0.25);
+    --input-shadow: inset 0 0.5px 0.5px 0.5px rgba(255, 255, 255, 0.09),
+      0 2px 4px 0 rgba(0, 0, 0, .15),
+      0 1px 1.5px 0 rgba(0, 0, 0, .1),
+      0 1px 2px 0 rgba(0, 0, 0, .2),
+      0 0 0 0 transparent;
+    --input-shadow-hover: inset 0 0.5px 1px 0.5px rgba(255, 255, 255, 0.16),
+      0 2px 3px 0 rgba(0, 0, 0, .3),
+      0 1px 1.5px 0 rgba(0, 0, 0, .2),
+      0 1px 2px 0 rgba(0, 0, 0, .4),
+      0 0 0 0 transparent;
+    --shadow-s: 0px 1px 2px rgba(0, 0, 0, 0.121),
+      0px 3.4px 6.7px rgba(0, 0, 0, 0.179),
+      0px 15px 30px rgba(0, 0, 0, 0.3);
+    --shadow-l: 0px 1.8px 7.3px rgba(0, 0, 0, 0.071),
+      0px 6.3px 24.7px rgba(0, 0, 0, 0.112),
+      0px 30px 90px rgba(0, 0, 0, 0.2);
+    --pdf-shadow: 0 0 0 1px var(--background-modifier-border);
+    --pdf-thumbnail-shadow: 0 0 0 1px var(--background-modifier-border);
+  }
+}
+
+.callout {
+  --callout-color: var(--callout-default);
+}
+
+.callout[data-callout="abstract"],
+.callout[data-callout="summary"],
+.callout[data-callout="tldr"] {
+  --callout-color: var(--callout-summary);
+}
+
+.callout[data-callout="info"] {
+  --callout-color: var(--callout-info);
+}
+
+.callout[data-callout="todo"] {
+  --callout-color: var(--callout-todo);
+}
+
+.callout[data-callout="important"] {
+  --callout-color: var(--callout-important);
+}
+
+.callout[data-callout="tip"],
+.callout[data-callout="hint"] {
+  --callout-color: var(--callout-tip);
+}
+
+.callout[data-callout="success"],
+.callout[data-callout="check"],
+.callout[data-callout="done"] {
+  --callout-color: var(--callout-success);
+}
+
+.callout[data-callout="question"],
+.callout[data-callout="help"],
+.callout[data-callout="faq"] {
+  --callout-color: var(--callout-question);
+}
+
+.callout[data-callout="warning"],
+.callout[data-callout="caution"],
+.callout[data-callout="attention"] {
+  --callout-color: var(--callout-warning);
+}
+
+.callout[data-callout="failure"],
+.callout[data-callout="fail"],
+.callout[data-callout="missing"] {
+  --callout-color: var(--callout-fail);
+}
+
+.callout[data-callout="danger"],
+.callout[data-callout="error"] {
+  --callout-color: var(--callout-error);
+}
+
+.callout[data-callout="bug"] {
+  --callout-color: var(--callout-bug);
+}
+
+.callout[data-callout="example"] {
+  --callout-color: var(--callout-example);
+}
+
+.callout[data-callout="quote"],
+.callout[data-callout="cite"] {
+  --callout-color: var(--callout-quote);
+}
+
+.callout {
+  overflow: hidden;
+  border-style: solid;
+  border-color: rgba(var(--callout-color), var(--callout-border-opacity));
+  border-width: var(--callout-border-width);
+  border-radius: var(--callout-radius);
+  margin: 1em 0;
+  mix-blend-mode: var(--callout-blend-mode);
+  background-color: rgba(var(--callout-color), 0.1);
+  padding: var(--callout-padding);
+}
+
+.callout.is-collapsible .callout-title {
+  cursor: var(--cursor);
+}
+
+.callout-title {
+  padding: var(--callout-title-padding);
+  display: flex;
+  gap: var(--size-4-1);
+  font-size: var(--callout-title-size);
+  color: rgb(var(--callout-color));
+  line-height: var(--line-height-tight);
+  align-items: flex-start;
+}
+
+.callout-content {
+  overflow-x: auto;
+  padding: var(--callout-content-padding);
+  background-color: var(--callout-content-background);
+}
+
+.callout-content .callout {
+  margin-top: 20px;
+}
+
+.callout-icon {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.callout-icon .svg-icon {
+  color: rgb(var(--callout-color));
+}
+
+.callout-icon::after {
+  content: "";
+}
+
+.callout-title-inner {
+  --font-weight: var(--callout-title-weight);
+  font-weight: var(--font-weight);
+  color: var(--callout-title-color);
+}
+
+.callout p {
+  margin-block-start: var(--p-spacing);
+  margin-block-end: var(--p-spacing);
+}
+
+      
+.markdown-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 45px;
+}
+
+@media (max-width: 767px) {
+  .markdown-body {
+    padding: 15px;
+  }
+}
+    </style>
+  </head>
+  <body class="markdown-body">
+    <pre class="frontmatter language-yaml" style="display: none;"><code class="language-yaml is-loaded"><span class="token key atrule">aliases</span><span class="token punctuation">:</span>
+<span class="token key atrule">sticker</span><span class="token punctuation">:</span> emoji//1f4d2</code></pre>
+<h2 data-heading="Przed 2026" dir="auto">Przed 2026</h2>
+<p dir="auto">Pierwsze zauroczenia i  miłości (stary dziennik) </p>
+<p dir="auto">Pierwszy Związek Ania</p>
+<p dir="auto">Poznałem Kanał AF +/- marzec 2025, jeszcze podczas związku z Anią. Już w tedy miałem lekkie plusy z uczenia się tego, co jest atrakcyjne dla kobiet.<br>
+Największy plus kanału jednak odczułem po zerwaniu, które na pewno było łagodniejsze dzięki Stoicyzmowi z kanału AF. </p>
+<p dir="auto">Na przysiędze poznałem Matyldę, wydaje mi się że mieliśmy fajne rozmowy.<br>
+Potem jeszcze z nią dużo gadałem na konferencji dla niepełnosprawnych.<br>
+Odpuściłem relację gdy dowiedziałem się że ma chłopaka. Raczej mimo fajnych interakcji, to zwaliłem pewnie sporo, poprzez wypisywanie do niej. </p>
+<p dir="auto">Po zerwaniu podczas pierwszego semestru, nie miałem czasu na poznawanie dziewczyny.<br>
+Do tego zacząłem oglądać inne kanały bardziej redpillowe, ale przestałem, miały one złą energię, i uważam że są szkodliwe. Oceniać kobiety jakie to one nie są dopiero jak te kobiety się ma. Kiedy jest się młodym bez kobiet to po prostu trzeba się rozwijać i być zafascynowanym kobietami, a nie zastanawiać się jakie to kobiety nie są puste. </p>
+<p dir="auto">W jeden weekend wyszedłem na Galerię w Warszawie<br>
+zagadałem do jednej metalówy którą zauważyłem w tramwaju, uśmiechnęła się gdy podszedłem, rozmowa drętwa ale zaprosiła mnie na koncert, na który szła z znajomymi. Uciekłem kiedy przyszła jej koleżanka.<br>
+Tego dnia zaczepiłem jeszcze jedną dziewczynę, mega się bałem zagadać, ale się przełamałem tylko dla tego by  nie mieć wyrzutów sumienia, dogoniłem ją, powiedziałem że jest ładna, nawet się nie zatrzymała, ale chyba podziękowała, pomimo tak z pozoru nieciekawej reakcji z jej strony, byłem mega  zadowolony z tego że się przełamałem. </p>
+<h1 data-heading="2026" dir="auto">2026</h1>
+<h2 data-heading="Styczeń" dir="auto">Styczeń</h2>
+<p dir="auto">W między czasie ogarnąłem wygląd, włosy, broda, trochę ciuchy. </p>
+<p dir="auto"><a data-tooltip-position="top" aria-label="WoodStock Wośp" data-href="WoodStock Wośp" href="WoodStock Wośp" class="internal-link" target="_blank" rel="noopener nofollow">Wośp 2026</a> poszedłem z nastawieniem podchodzenia do lasek,<br>
+Pierwszą laskę którą zagadałem, to była jakaś totalna porażka, miała na sobie spodnie mundurowe.<br>
+Potem poszedłem po wsparcie w postaci 2 drinków. </p>
+<p dir="auto">Zagadałem kilka lasek,<br>
+jedną która była z koleżankami, miała fajną interakcję, ale stwierdziła że jestem za stary na nią, miała chyba 16. Mogłem olać to i spróbować jakoś zagadać zarówno do niej jak i do koleżanek.<br>
+Ale skupiłem się na tym że to nie problem że jest 5 lat młodsza.</p>
+<p dir="auto">Jedną zagadałem, podziękowała za komplement powiedziała, że ma chłopaka, mogłem lekko pociągnąć temat, dać jej fajną energię, ale wyszedłem z interakcji i zacząłem patrzeć na scenę.</p>
+<p dir="auto">Zagadałem jedną po tańcu, po powiedzeniu jej komplementu, powiedziała że jest po rozstaniu i nie chce się angażować, ale chwilę pogadaliśmy, życzyłem jej powodzenia, i interakcja miała fajną energię.</p>
+<p dir="auto">Zagadałem jedną, i dała mi numer po mega szybkiej interakcji, w zasadzie spytałem tylko o ten numer, dała mi fałszywy. Potem jeszcze dałem jej serduszko z konfetti, ale to musiało być creepy haha. </p>
+<p dir="auto">Tańczyłem z jedną białowłosą, pożegnała się ze mną po koncercie, ale raz z tańca wyszła mówiąc że musi iść, była z kimś tam, chłopak lub starszy brat. Nie pytałem o nic, nie była aż tak ładna ale fajnie się tańczyło. </p>
+<p dir="auto">Wnioski<br>
+Teraz wiem że można na luzie podchodzić do lasek, ale najważniejsze jest to by dać im dobrą energię a nie wychodzić z pozycji żebraka, który chce numer.<br>
+Jednak dalej jest to cholernie ciężkie. </p>
+<h2 data-heading="Luty" dir="auto">Luty</h2>
+<p dir="auto">Umówiłem się na randkę z znajomą Marcina, pokazało mi to trochę tą drugą perspektywę, gdzie, to dziewczyna była zainteresowana, ja tak średnio, od początku tak średnio mi się chciało na nią iść ,ale dałem szansę. Mam jednak wyższe standardy. Nie wyobrażam sobie laski bez ambicji, wiem też że nie jestem też w stanie umówić się tylko dla sexu, jeśli laska mnie nie ciekawi ani nie intryguje. </p>
+<p dir="auto">Iwanicka </p>
+<p dir="auto">Milena<br>
+Wysłałem do niej głosówkę(głosówki naprawdę są OP), by się spotkać w bełchatowie, byłem mega podekscytowany wysyłając jej wiadomość, by zaproponować spotkanie po 4 latach, okazało się że mieszka w Warszawie, więc umówiliśmy się w kawiarni. </p>
+<h2 data-heading="Marzec" dir="auto">Marzec</h2>
+<p dir="auto">Spotkałem się z Mileną, mieliśmy bardzo przyjemne spotkanie, rozmawialiśmy 4h, na początku miałem ramę spotkania damsko-męskiego, ale po godzinie okazało się że ma chłopaka, więc przeszedłem na ramę przyjacielską. Miałem lekkie nadzieje że jest szansa na coś, ale też spodziewałem się że taka ładna dziewczyna raczej nie jest sama, więc nie miałem zawodu z tego powodu, robiłem lekki daydreaming ale na szczęście nie za mocny, dzięki czemu się  nie zawiodłem. Pomimo spotkania przyjacielskiego, dawno się nie widzieliśmy, więc było to poznawanie się trochę na nowo, więc okazywałem swoją osobowość tak jak na spotkaniu z dziewczyną. W pewnym momencie powiedziała mi że mam mega ciekawe życie, i faktycznie udało mi się opowiadać o swoich pasjach z emocjami, co naprawdę robiło wrażenie. Myślę że temat hipergamii i AF to jednak nie jest dobry temat na początek. Jeśli chodzi o kontakt wzrokowy to naprawdę utrzymywaliśmy go przez długie chwile, ale to też pewnie dla tego że nie zagęszczało to atmosfery, przez właśnie ramę przyjaciół, nie utrzymywałem jednak kontaktu gdy mówiłem o czymś dla mnie emocjonującym, to wypada poprawić. Podsumowywująca nie widzę z tego jakichś większych błędów, ale też nie była to formalna randka, mega przyjemne spotkanie.    </p>
+<p dir="auto">Wyszedłem do klubu, nie czułem strachu, a nawet ekscytację. Na oczątku byłem w klubie dla millfów, srata kasy ale cóż człowiek nie wiedział. Dopiero potem poszedłem do lepszego klubu, udało mi się nie być zamknięty w sobie i pogadać z kilkoma ludźmi. W kolejce spotkałem 2 laski którym kupiłem bilety, nigdy więcej Tego Nie Robić. Łaziłem za tymi laskami gdzie one nie były zainteresowane mogłem, zamiast iść z nimi na parkiet mogłem spróbować trochę bardziej się z nimi zapoznać. Zatłoczone parkiety gdzie jest ścisk jak w pogo to lipa. Za to mogłem spróbować zagadać laski poza parkietami Ale tego Nie robiłem. Ale poza stratą pieniędzy to wyjście było okej, przede wszystkim wyszedłem do ludzi i to sam. Proponowałem też taniec innym laska na  luźnym parkiecie ale z w większości dostawałem zlewki, i co z tego, Do jednej laski podszedłem od tyłu i się wystraszyła, ale w sumie przez to że nie odszedłem od razu "tylko jeden obrocik" to zaczęła do mnie się nachylać zaciekawiona o co mi chodzi, ale nie mówiła o polsku więc lipa XD, trzeba się uczyć języka.<br>
+Na ten moment lepiej się raczej skupić na podchodzeniu za dnia, wyrobić się w podchodzeniu że to normalne, a nocą kręcić się pod klubami przy kolejkach zagadywać laski. </p>
+<p dir="auto">Byłem na kawie z Magdą Biegaj, okazało się że mega dobrze nam się rozmawia, ale najprawdopodobniej traktuje mnie jak przyjaciela, byliśmy potem jeszcze raz na spacerze. Jednak nie okazuje ona zainteresowania w pisaniu. Do tego też nie jestem jej jedyną opcją, w zasadzie gdy usłyszałem o tym że była z kimś na randce i dobrze się bawiła, do tego nie odpisała mi, to odpuściłem. </p>
+<p dir="auto">Założyłem tindera I boo, nie ma jakichś super efektów ale zdarzają się mache, i przede wszystkim głosówki są mega opcją, zachęcają dziewczyny do odpisania. </p>
+<h2 data-heading="Kwiecień" dir="auto">Kwiecień</h2>
+<p dir="auto">Byliśmy umówieni z Magdą na kolejną kawę, odezwałem się do niej czy dalej aktualne, powiedziała że tak, dosłownie wcisnęła spotkanie ze mną w swój grafik, więc ma mega dużo spotkań, mam zamiar podkręcać jej zainteresowanie, ale nie mam pewności czy nie jest po prostu dla mnie uprzejma i dla tego odpisuje itp. Nie zaszkodzi spróbować </p>
+<p dir="auto">Jadąc autobusem miałem okazje zagadać dwa razy, nie odważyłem się ani razu.<br>
+Korzystam z wymówki "nie była aż tak ładna" - no i kurwa co z tego, mogę i tak jej życzyć miłego dnia czy powiedzieć komplement. </p>
+<p dir="auto">Na dworcu zobaczyłem dziewczynę z różowym plecakiem i podszedłem, stwierdziła że nie ma ochoty rozmawiać. To było super uczucie, że zrobiłem coś czego się obawiałem, i pomimo tego że byli w okuł inni ludzie, nikt na mnie nie zwrócił uwagi. Niby odrzucony a ręki ani nogi nie urwało. Co do podejścia powinienem podejść z większą pewnością i  stanowczością, do tego od razu a nie po rozkminianiu "co się stanie gdy". Życzyłem miłego dnia, ale odchodząc a powinienem dalej jej patrzeć w oczy gdy to mówiłem. </p>
+<p dir="auto">Podszedłem do laski w autobusie, Zostałem przez nią olany, nawet nie usłyszałem co do mnie powiedziała, życzyłem jej miłego dnia. Super że się odważyłem, zrobiłem to od razu, kruto po tym gdy wsiadła. Na przyszłość: Daj dziewczynie jakiś komplement, by nawet po zlewce miała poprawiony humor. </p>
+<p dir="auto">Cholera, siedziałem w autobusie,  weszła ładna dziewczyna, byłem uśmiechnięty i ona chyba sie do mnie też uśmiechnęła. Miałem do niej podejść i to bez żadnego wewnętrznego oporu w sobie, poczekałem jeden przystanek, by ludzie którzy wstali wyszli, żebym nie musiał się przepychać(i nie miał widowni), a ona wyszła na pierwszym przystanku i straciłem okazje.</p>
+<p dir="auto">Tego samego dnia wracając do akademika, wszedłem do galleri, zagadały mnie laski, z stanowiska banku, i pogadałem z nimi, założyły mi konto XD, namówił mnie ich szef na konto oszczędnościowe, Jedna z dziewczyn okazała się studentką wat cywilną, wajnie się gadało, wziołem numer, ale wiedziałem że ma chłopaka nie odpisała. </p>
+<p dir="auto">Parę razy byłem z Magdą wieczorem pogadać, raz leżeliśmy na łużku, raz ją skromnie złapałem na udo, ale dużo mi o sobie mówi jednak mam wrażenie że mną nie jest zainteresowana, i do tego mi odpisze raz na rok, a z innymi to pisze cały czas, więc po prostu nie jest zainteresowana, nie będę się angażował już tyle, i tyle.  </p>
+<div class="block-language-dataviewjs node-insert-event" style="overflow-x: auto;"><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/07/D/2026-07-13.md" data-href="Dziennik/2026/07/D/2026-07-13.md" href="Dziennik/2026/07/D/2026-07-13.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-07-13</a></span></h5><p><span><p dir="auto">Byłam na Dayu z Piotrem, on mega wystraszony ale dobrze że z domu wyszedłem, ja szczerze przy nim leciałem jak karabin, nawet do trzynastek podbiłem. Wcześniej jeszcze w metrze po angielsku komplement powiedziałem. </p>
+<p dir="auto">Poczułem się mega usatysfakcjonowany że nie nie mam w sobie strachu. </p>
+<p dir="auto">to było super uczucie, wyjście to miało na celu, czyli absolutna wolność i podbijanie bez ograniczeń, co nie jest jeszcze osiągnięte.</p>
+<p dir="auto">Komplement po angielsku, było jej bardzo miło.</p>
+<p dir="auto">W sklepie zlewka</p>
+<p dir="auto">Potem metalówa, chwila drętwej rozmowy. ZADAWAŁEM PYTANIA ZAMIAST GADAĆ. i po chwili powiedziała że się śpieszy na pociąg, ale nie było źle.</p>
+<p dir="auto">Potem szybka zlewka.<br>
+EE dwie szybkie zlewki, </p>
+<p dir="auto">a i na koniec w rosmanie Komplement dla laski z ładnymi lokami.<br>
+Nie zostałem w interakcji, laska podziękowała, nie dając jakiejś mega optymistycznej reakcji, ale i tak spoko, może mogłem zostać. Fajnie się w tedy zająknąłem jak mówiłem komplement, faktycznie miała ładne loki.</p>
+<p dir="auto">Opowiedziałem kumplowi historię związku, i leciałem faktami, zamiast opowiedzieć to w postaci Historii, muszę nauczyć się opowiadać.</p></span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/07/D/2026-07-15.md" data-href="Dziennik/2026/07/D/2026-07-15.md" href="Dziennik/2026/07/D/2026-07-15.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-07-15</a></span></h5><p><span><p dir="auto">Wczoraj nie podszedłem do żadnej idąc na pociąg a miałem nawet czas by pochodzić, znalazłem sobie wymówkę że mam ciężki plecak, że słabo ubrany, że strup na nosie, że nic nie muszę. I co ale mogłem bez zobowiązań powiedzieć komplement, miałem raz okazję chciałem to zrobić ale stwierdziłem że nie jest aż tak ładna od przodu. Bez sensu skoro mogłem podzielić się fajną energią nawet z średnią dziewczyną przecież mnie to nic nie kosztuje, a jej może poprawić dzień. </p>
+<p dir="auto">W sumie przecież, to takie drobne rzeczy mogą naprawdę poprawić komuś dzień.</p></span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/07/D/2026-07-19.md" data-href="Dziennik/2026/07/D/2026-07-19.md" href="Dziennik/2026/07/D/2026-07-19.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-07-19</a></span></h5><p><span><p dir="auto">Zagadałem randomową laskę czernie włosy na peronie w Zduńskiej Woli minimalny stresik, ale totalnie na luzie.<br>
+Kilkuminutowa interakcji nie najlepsza z mojej strony ale, poznałem ją, powiedziałem<br>
+Że zagadałem, ale nie mam pomysłu co powiedzieć. Powiedziała że i tak spoko.<br>
+Zaproponowałem kawę, ale powiedziała że nie.<br>
+Zakończyłem interakcjię, powiedziała że milo było mnie poznać. </p>
+<p dir="auto">Super sprawa zero kosztów z mojej strony, i tak oboje bysmy stali na tym peronie, a podzieliłem się fajną energią. </p>
+<p dir="auto">Mogłem jedynie być bardziej enegiczny, zabawny, byłem nudny i monotonny w interakcji. Trzeba zacząć nagrywać! I wyciągać wnioski</p>
+<p dir="auto">W pociągu stanęła obok mnie Gotka ale taka fajna, miałem opór ale powiedziałem że fajnie wygląda, ezz</p></span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/07/D/2026-07-20.md" data-href="Dziennik/2026/07/D/2026-07-20.md" href="Dziennik/2026/07/D/2026-07-20.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-07-20</a></span></h5><p><span><p dir="auto">Wyszedłem z Piotrkiem,<br>
+zanim przyszedł wchodząc do galerii widziałem laskę z fajnymi spodniami, chciałem zagadać ale idąc za nimi okazało się że są z anglii a ja nawet nie wiedziełem jak są spodnie po angielsku.</p>
+<p dir="auto">zanim Piotrek Przyszedł miałem lekki zjazd, ale gdy tylko przyszedł, od razu była dobra energia, ewidentnie napędzamy się do działania.</p>
+<p dir="auto">Sporo razy podszedłem, dać tylko komplement, pare razy wyszedłem odrazu z interakcji, albo dziewczyna zaczeła odchodzić, ale też kilka razy podszedłem z myślą że chce dać jej tylko komplement, tak w celu łatwej interakcji, i jest to w sumie fajne, dziewczyna dostaje komplement, a ja wykonuje działanie, co prawda łatwe bo taki komplement jest łatwą interakcją, i pozwala nam to nie zastygnąć.</p>
+<p dir="auto">Podszedłem raz do laski z 2 sekundy po podejściu podszedł jej chłopak, i powiedział do mnie że mogę już sobie iść, zabawne to było, ja jeśli kiedyś będę na jego miejscu dam dziewczynie cichy sygnał żeby zobaczyła co się stanie. Ale naprawdę bekowa sytuacja, co ciekawe ludzie się tego boją się takich sytuacji, ja miałem ubaw.</p>
+<p dir="auto">Parę lasek zagadałem i tu już poległem w rozmowach, do jednej nawet powiedziałem, czy ma ochotę się poznać, rozmowa czułem że nie będzie się kleić, wiedziałem że powie nie  - NIGDY WIĘCEJ TEGO TEKSTU.</p>
+<p dir="auto">Ale co w sumie ciekawe laska zawsze może wyjść z interakcji, więc gdy tylko stoi przy nas to jest zainteresowana, Betonowe BUTY!</p>
+<p dir="auto">Podszedłem też do laski w sklepie z biżuterią, to chyba była najlepsza interakcja sam koniec, była tam jakaś historia, powiedziałem coś w stylu że wcześniej ją widziałem ale nie chciałem wchodzić jak miałaś klientów, ostatecznie powiedziała że ma chłopaka, to co prawda nie znaczy że faktycznie go ma, ale skończyłem interakcję, ale najważniejsze jest to że tam była ta historia może słabo opowiedziana ale jednak.</p></span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/07/D/2026-07-21.md" data-href="Dziennik/2026/07/D/2026-07-21.md" href="Dziennik/2026/07/D/2026-07-21.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-07-21</a></span></h5><p><span>Dreaming<br>
+Miałem w głowie hipotetyczną rozmowę z przyjaciółką Igi na woodzie, mówiłem coś w stylu, że tak podrywałem Igę, ale ona o tym wiedziała więc jeśli miało by coś z tego być to by było, i że w takim razie bekę mam z jej chłopaka, który jedzie tam jej tylko pilnować. I że kręciłem się przy Idze gdy ta miała zrywać ale gdy ustabilizował im się związek to przestałem, i że jeśli już to Iga była by na  krótki okres. Co to może oznaczać, może chcę być postrzegany jako os która ma w to wyjebane, i w sumie poniekąd ma, ale nie ukrywam gdyby Kacper nie jechał to może bym coś próbował i nie ukrywam odpalałem się gdy nawet ostatnio pisałem z Igą, z jednej strony mam wywalone, ale w sumie to czekam na okazję, i w sumie to nie jest złe.</span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/07/D/2026-07-23.md" data-href="Dziennik/2026/07/D/2026-07-23.md" href="Dziennik/2026/07/D/2026-07-23.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-07-23</a></span></h5><p><span>Byłem na siłce w sumie to zerkałem na rudą, i ona zerkała na mnie, prawdopodobnie nie wiedziała jak zrobić jakieś ćwiczenie, Jakiś typ do niej zagadał, i jej pomógł, w pierwszej chwili poczułem zazdrość, Ale po chwili doszedłem do wniosku że kurde, zagadał to mu się należy interakcji, ja nie zagadałem mimo że mogłem to co ma mi się nie podobać</span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/07/D/2026-07-26.md" data-href="Dziennik/2026/07/D/2026-07-26.md" href="Dziennik/2026/07/D/2026-07-26.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-07-26</a></span></h5><p><span><p dir="auto">Siedziałem z Pichem i Niżynką na barze w Sieradzu, nie powie rozglądałem się, za jakimiś dziewczynami, ale tam absolutnie nikogo nie było. </p>
+<p dir="auto">Dopiero wieczorem gdy siedzieliśmy w barze usiadły w barze dwie dziewczyny, kiedy wstały i odeszły, poszedłem za nimi, pierwsze co źle zrobiłem, powiedziałem przepraszam stojąc za ich plecami, lekko się wystraszyła. </p>
+<p dir="auto">powiedziałem jej że ma ładne włosy była zadowolona</p>
+<p dir="auto">ale próbowałem z nią pogadać, i co i wywiad, </p>
+<p dir="auto">dodałem temat z co robią w danej chwili<br>
+powiedziały że idą do domu </p>
+<p dir="auto">spytałem czy są z Sieradza powiedziały że tak<br>
+ja nie miałem pomysłu co mówić nie powiedziałem nawet że jestem z warszawy, chyba nie powiedziałem nic o sobie, a mogłem powiedzieć że jestem z Wawy i że wszkoda bo fajnie było by się z nią spotkać, ale nie zawitam do Sieradza zbyt szybko znowu.</p>
+<p dir="auto">Jezu przecież by potem mówiła koleżanką że zagadał ją typ z wawy, mogła to być super narracja a ja nie zrobiłem nic.</p>
+<p dir="auto">Dodam też że Kuba zaczołe nagrywać moje podejście i laski to zauważyły, to je mogło  lekko speszyć. </p>
+<p dir="auto">Na odejściu powiedziałem tylko że chciałem powiedzieć że ma ładne włosy.</p></span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/08/D/2026-08-12.md" data-href="Dziennik/2026/08/D/2026-08-12.md" href="Dziennik/2026/08/D/2026-08-12.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-08-12</a></span></h5><p><span>Od kilku dni zacząłem korzystać z aplikacji yubo i to jest pierwsza aplikacja która działa w moim przypadku, prawdopodobnie na innych miałem już rozwalone algorytmy, usunąłem te konta by się zresetowały, a póki co na yobo mam nawet po 2/3 liki dzienne, co jest niesamowitą liczbą, na tinder to tyle miałem na miesiąc albo i mniej, i teraz faktycznie można po próbować różnych technik, z jedną dziewczyną jestem wstępnie umówiony na spotkanie, mając kilka tych dziewczyn które do ciebie piszą nie jest się needy, i nie traktuje się dziewczyny specjalnie tylko dlatego że dała w prawo. Do tego przerabiam jeszcze raz kurs od AF, <a data-href="Tinder" href="Tinder" class="internal-link" target="_blank" rel="noopener nofollow">Tinder</a>, i zaciągnąłem ai do pomocy z opisem, na razie jest potencjał, teraz trzeba tylko dalej się rozwijać, w otwieraczach i w umawianiu randek.</span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/08/D/2026-08-13.md" data-href="Dziennik/2026/08/D/2026-08-13.md" href="Dziennik/2026/08/D/2026-08-13.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-08-13</a></span></h5><p><span>Spacer z Igą, poszła ze mną bo chciała usłyszeć, moje zdanie na temat tych wiadomości które mi rano pokazywała, no tak szczerze to jej powiedziałem jedynie że nie są dopasowani i tyle i ponarzekała sobie na Sołtysiaka że jest lamusem i tyle, ale pewnie i tak nic z tym nie zrobi i dalej będą się użerać z sobą. Czy ja chce by zerwali? Jeśli to zrobią, pewnie Iga by spędzała sporo czasu ze mną, co było by spoko, ale no nie jest raczej ona w 100% w moim typie więc, mało tego miałem nawet podczas spaceru w głowie "jezu ale ona jest nudna". Więc nie ma tutaj co za bardzo się produkować, nie mówiąc o tym że jestem tu tamponem emocjonalnym, z nim się rucha a, do mnie się wypłakać, więc trzeba, tu to ukrócić bo to nie ma co marnować czasu.</span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/08/D/2026-08-15.md" data-href="Dziennik/2026/08/D/2026-08-15.md" href="Dziennik/2026/08/D/2026-08-15.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-08-15</a></span></h5><p><span>Pod koniec parady siedzieliśmy już lekko rozjebani tam ekipa Ja Trzesniak, Grygor i taka Gosia, co sepleniła, i trochę się z niej śmialiśmy, ale tak ogólnie, tam chłopaki dość mocno z niej żartowali, ja z niej trochę też, i powiedziałem cos o jej głosie, i w sumie byłem lekko niemiły, faktycznie nie koniecznie to było śmieszne, bo powiedziałem coś w stylu, "Ja cię nie rozumiem, i mi to nie przeszkadza" No a ta się odpaliła, zwyzywała mnie że jestem niski i brzydki, i to w sumie było zabawne, zły jestem na siebie że wszedłem z nią w dyskusję, zamiast po prostu śmiać się słuchając. Trochę mi głupio, ale bez przesady ona bardziej się odpaliła</span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/08/D/2026-08-18.md" data-href="Dziennik/2026/08/D/2026-08-18.md" href="Dziennik/2026/08/D/2026-08-18.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-08-18</a></span></h5><p><span><p dir="auto">Wyszedłem z Piotrkiem, było deszczowo, na szczęście on nie szukał wymówek, bo mi się trochę nie chciało, na szczęście poszedłem</p>
+<p dir="auto">długo po prostu z sobą rozmawialiśmy, ale nie czułem większej spiny, mimo braku podbić, trochę taki dzień na rozgrzewkę po przerwie, po dłuższym czasie chodzenia podszedłem w końcu</p>
+<p dir="auto">do laski z fioletowymi włosami szła w grupie 4os, miała po lewo i po prawo koleżanki, więc idąc za nią po prostu powiedziałem "koleżanko w fioletowych włosach, mogę cię na chwilę zatrzymać", jak spytała się o co chodzi dałem jej komplement, ale nie ustałem w interakcji, widziałem że była mega zadowolona i mi to też poprawiło bardzo humor,</p>
+<p dir="auto">była jeszcze druga dziewczyna, ubrana tak w miarę na sportowo, powiedziałem komplement, podziękowała, ale przy przedstawiani powiedziała że ma chłopaka, uśmiechnąłem się i życzyłem miłego dnia a ona w tedy powiedziała że mam świetny uśmiech i że na pewno potrafię każdemu dzień poprawić, było to mega miłe i w sumie pierwszy raz to ja dostałem komplement,</p>
+<p dir="auto">podbiłem jeszcze na wyspę do laski przy której stał typ, i Piotrek mi powiedział że ten typ często przy niej stoi, więc zadałem jej pytanie bo ciekawiło nas czy ją podrywa, a ona powiedziała że to jej przyjaciel, mega randomowe, ale w sumie rozbawiło nas to</p>
+<p dir="auto">wychodząc podbiłem do małolaty i powiedziałem że ma fajne skrzydełka (z opaski), tak też ran domowo bo mogę</p>
+<p dir="auto">day udany</p>
+<p dir="auto">Wnioski nie spierdalać gdy ta mówi że ma chłopaka,<br>
+mogę powiedzieć że 'Spoko tak tylko chciałem chwilę pogadać' i lecieć dalej skąd jest co tu robi, co ogólnie robi</p></span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/08/D/2026-08-20.md" data-href="Dziennik/2026/08/D/2026-08-20.md" href="Dziennik/2026/08/D/2026-08-20.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-08-20</a></span></h5><p><span><p dir="auto">Day na złotej z Piotrem, miałem chyba dwa podejścia, nie dużo ale celem była dobra interakcjia,</p>
+<p dir="auto">pierwsza laska zlewka totalna,</p>
+<p dir="auto">druga, była mega zaskoczona pozytywnie, po krótkiej rozmowie dowiedziałem się że wyprowdziła się w wieku 5 lat do anglii i bywa tu raz w roku wiec nie było motywacji by zostać w interakcji. Ale i to lekki smal talk wleciał, więc się da! </p>
+<p dir="auto">dużo tu pomogło chyba tekst, 'to pewnie dziwne że cię zaczepiam w galerii'</p></span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/08/D/2026-08-27.md" data-href="Dziennik/2026/08/D/2026-08-27.md" href="Dziennik/2026/08/D/2026-08-27.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-08-27</a></span></h5><p><span>Dwa razy w autobusie widziałem jakąś laskę w miarę fajną nie podszedłem ani razu, więc słabo, za drugim razem akurat spoko bo była z watu i na nią chłopak czekał jak wysiadała,<br>
+poza tym 2 dziewczyny usiadły ze mną w autobusie, jedna z nich też była całkiem fajna, ale nie odważyłem się zagadać, nawet tak z byle powodu, fajnie by było mieć umiejętność gadania z ludźmi, tak jak w sumie mój tata, zażartować sobie itp, zawsze mi się to nie podobało bo miałem wrażenie że tata to robił zawsze bardzo nietaktownie i zawsze widziałem zakłopotanie w tych zaczepianych ludziach, ale i tak często z nim na luzie gadali, więc jeśli nauczę się taktownie zagadywać, to było by coś super.</span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/08/D/2026-08-30.md" data-href="Dziennik/2026/08/D/2026-08-30.md" href="Dziennik/2026/08/D/2026-08-30.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-08-30</a></span></h5><p><span>NIGHT poszedłem z bratem pod scenę, na początku jedna zlewka była, potem wpadła fajna nuta łydki grubasa, to ja z wojtkiem drzemy mordę i jakaś nawalona laska do nas się skleiła,<br>
+Padło Pytanie, Czy Wojtek jest moim synem i czy może z nim zatańczyć.<br>
+Wziął ją do tańca a bardziej ona go wciągnęła więc wziąłem jej koleżankę, taką trochę ładniejszą do tańca i w sumie było spoko, wziąłem numer ale wątpię że podała prawdziwy<br>
+mogłem też lepiej to rozegrać, droczyć się z nią o pytaniu o wiek, A ile byś mi dała? zamiast mówić 20, okazja do pośmiania się gdy dziewczyna przestrzeli.<br>
+Na propozycję spotkania, odpowiedziała że nie wie czy będzie mogła, ja jakoś mega głupio odpowiadam, ale to co mama ci zabroni? a mogłem wrzucić flirt typu nie wiem co ty sobie myślisz ale ja proponuje tylko zwykły spacer albo posiedzenie przy kawce.<br>
+Weszliśmy na temat alko, to powiedziałem że kierowcą jestem, ona że 'słabo', a ja że i tak mało pije, ona od razu że też nie pije za dużo, więc spoko, to dobre było mogłem jednak wejść w temat, "Nie wiem jak ty masz, ale ja dobrze się bawię na trzeźwo"<br>
+Był tez wywiad, na początku spoko że czy z liceum jesteś? ale potem jej ulubioną odpowiedzią na ogólne pytania było 'nie wiem'</span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/09/D/2026-09-24.md" data-href="Dziennik/2026/09/D/2026-09-24.md" href="Dziennik/2026/09/D/2026-09-24.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-09-24</a></span></h5><p><span><p dir="auto">DAY<br>
+dwa podejścia, na początku stypa i szukanie fajnych dziewczyn i trochę to trwało, na idąc do zegarmistrza jeszcze widziałem taką fajną w białym berecie i staliśmy razem na światłach miała koleżankę, ale się nie odważyłem, i to była moja porażka,<br>
+zauważyłem ją potem w galerii i to był instant sygnał by wbić w nią, zaczepiłem je w Rossmanie, słabo to poszło ale z bliska okazała się średnia<br>
+Podejście i pierwszy komplement był spoko, ale bez pociągnięcia Jakoś tematu z mojej strony dziewczyna poczuła się zakłopotana, a ja "chcecie pogadać może" - spalenie interakcji<br>
+ale w sumie była spoko energia dziewczynie się zrobiło milej </p>
+<p dir="auto">za to chwile później poszedłem do Jesieniary i tu mega rozmowa siadła jak na mnie to super poszło, ale mogłem nie spierdalać gdy powiedziała że ma chłopaka </p>
+<p dir="auto">Komplement o style i vibe fajnie siadło, dziewczyna była responsywna, zaczeła temat o pokazywaniu swojej tożsamości, ja podłapałem i opowiedziałem o ścięciu włosów,<br>
+laska fajnie reagowała, była wciągnięta w opowieść powiedziała że idzie na autobus ale że mega miło się gadało, ja zaproponowałem że ją odprowadzę</p>
+<ul>
+<li dir="auto">mogłem dalej gadać czekając z nią na busa i wziąć kontakt olewając fakt że ma chłopaka<br>
+a zrobiłem: powiedziałem że fajnie się gada (za szybko takie stwierdzenie i za szybka próba wzięcia kontaktu), on że ma chłopaka, a ja się zwinąłem, zamiast olać to że ma chłopaka </li>
+</ul>
+<p dir="auto">To był pierwszy day w którym użyłem dyktafonu</p></span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/09/D/2026-09-25.md" data-href="Dziennik/2026/09/D/2026-09-25.md" href="Dziennik/2026/09/D/2026-09-25.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-09-25</a></span></h5><p><span>Day<br>
+długo spacerowałem i nic, nie podszedłem ani razu i miałem, nie czułem że widziałem chociaż jedną laskę w moim typie, wracając metrem jedynie co zrobiłem to skomentowałem laskę za włosy i szczerze miałem duże opory, typu przecież w sumie to nie jest ładna, zrobiłem ostatecznie tak że dałem komplement dopiero jak wychodziłem</span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/09/D/2026-09-26.md" data-href="Dziennik/2026/09/D/2026-09-26.md" href="Dziennik/2026/09/D/2026-09-26.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-09-26</a></span></h5><p><span><p dir="auto">Day: w metrze podszedłem do laski i zaczęliśmy gadać, ale zaczarowała mnie fryzurą, to jest to, dosłownie laska zrobiła na mnie wrażenie, czułem strach ale wiedziałem że muszę, zupełnie co innego niż rozglądanie się za laskami i Może mi się podoba może nie, podszedłem do laski i zaczęliśmy rozmawiać całą trasę na złote wziąłem od niej numer, i chyba uda mi się z nią umówić rozmawialiśmy o studiach.<br>
+Komplement mega siadł bo od razu dodałem co sprawiło że zrobiła na mnie wrażenie, powiedziałem że wiatr wiał jej włosy co stworzyło super scenę, laska była chętna do rozmowy<br>
+O studiach sporo jej o wojsku opowiadałem ona mi o prawniczych cała rozmowa 12 min<br>
+pierwsza moja 10 minutówka, totalnie olałem fakt że ma chłopaka i gadałem dalej, spytałem się co robi jutro, powiedziała że idzie do Escape room z chłopem, nie była to moja perfekcyjna relacja, bo zrobiłem smutną minę na to ale zaproponowałem kawę mimo wszystko więc olewamy sprawę chłopaka i lecimy, ona dosłownie mi zaproponowała że możemy iść w 3 do Escape, dosłownie pierwszy raz w życiu laska mi zaproponowała trójkąt XD, a potem że nie miał bym z kim przyjść żeby była 4 to powiedziała że przyprowadzi mi koleżankę że ma ładne koleżanki, so wtf, i tak wymieniliśmy się kontaktami. </p>
+<p dir="auto">Potem wyszedłem z złotych i był pokaz ognia który organizowały dziewczyny, stałem tam i one po trochu do mnie zagadywały, trochę ja je zagadywałem, ostatecznie ciężka sytuacja bo każda po trochu była spoko, mogłem jakoś wejść w rozmowę wybadać temat, ale koncertowo zjebałem bo spytałem laskę o numer która prawie wgl że mną nie gadała, i okazało się że miała chłopa, ale tak szczerze to mogłem spytać innej, no ale chuj, szczerze to była ciężka sytuacja, ale i tak koncertowo zjebałem, powinienem od razu z 8ntencją zagadać jedną konkretną<br>
+Podszedłem do laski na przystanku, i po komplemencie powiedziała że jestem "za młoda dla pana" no i pociągnąłem temat, że dała by mi 25, ja powiedziałem że mam 20, ale przeprosiłem ją, powiedziałem jeszcze raz że fajnie wygląda i zakończyłem interakcję</p></span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/09/D/2026-09-27.md" data-href="Dziennik/2026/09/D/2026-09-27.md" href="Dziennik/2026/09/D/2026-09-27.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-09-27</a></span></h5><p><span><p dir="auto">Jest 14, do Zuzi z wczoraj napisalem o 8 dalej brak odpowiedz, ale na spokojnie, plan taki jeśli nie napisze to w wtorek do niej zadzwonię, i tyle, mega mnie męczy to że nie odpisuje, ale na spokojnie, ja już day dreaming wprowadziłem, i się angarzuję, a my tylko (a dla mnie i aż ) 10 min w metrze gadaliśmy, bez spiny, trzeba dzisiaj na kolejnego daya iść a nie patrzeć w tel czy laska odpisze.</p>
+<p dir="auto">O i ten Day to była świetna decyzja, najpierw szwendając się usiadłem posłuchać jak grają na gitarach, były to baiłoruskie piosenki, i jak tam siedziałem to zagadała mnie Białorusinka mająca 15 lat, mega otwarta dziewczyna trochę z nią gadałem, doszliśmy nawet do rozmowy o emocjach opowiadała mi, że była zmuszana do szkoły muzycznej, no ale ostatecznie była tam cała zgraja takich dzieciaków, byli najebani w sumie nawet nie była jakaś super ładna, ale poczułem chęć pogadania z nią sam na sam, zaproponowałem, wyjście powiedziała że ma chłopaka, ktury dosłownie stał obok nas, i tyle.</p>
+<ul>
+<li dir="auto">Powinienem pociągnąć temat powiedzieć że ciekawi mnie ta historia z rodzicami, że mimo chłopaka fajnie będzie pogadać chwilę w 4 oczy. </li>
+</ul>
+<p dir="auto">Już miałem spadać robiąc ostatni obchud zobaczyłem fajną laskę, stwierdziłem że idę, długo za nią szlem bo szła szybko, dogoniłem ją przed peronem,<br>
+Zagadałem,<br>
+Przepraszam (pauza) Fajnie Wyglądasz (rozchmurzyła się)</p>
+<ul>
+<li dir="auto">Najlepszy neutralny komplement, działa najlepiej<br>
+Wyglądasz jak byś słuchała dużo rokowej muzyki ( miała dzwony skurzaną kurtkę ale nie wyróżniała się aż tak rokowo, strzelałem, jeszcze bardziej się rozchmurzyła)</li>
+<li dir="auto">Najważniejsze w podchodzeniu, zauważenie jakiegoś faktu, "wyglądasz na ... rock/jesieniara"<br>
+Potem siadło jakieś ponad 20 min rozmowy, spóźniła się na pociąg i poszliśmy na randkę, trwającą do następnego pociągu, był kontakt wzrokowy fajna rozmowa, moim zdaniem super poszło</li>
+</ul>
+<p dir="auto">Pierwszy Instant</p>
+<ul>
+<li dir="auto">wzięła numer i jeszcze zrobiła mi zdjęci do kontaktów, jest spora szansa że się odezwie, ale nigdy nie wiadomo, może poszło mi za dobrze i będzie mieć stresa by napisać pierwsza, powinienem powiedzieć by puściła mi strzałkę</li>
+<li dir="auto">ale powiedziała że będzie się odzywać gdy będzie w wawie, bo jest tu raz na jakiś czas więc może się odezwie jak nie zapomni haha</li>
+</ul></span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/09/D/2026-09-29.md" data-href="Dziennik/2026/09/D/2026-09-29.md" href="Dziennik/2026/09/D/2026-09-29.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-09-29</a></span></h5><p><span><p dir="auto">Day, pierwsza dziewczyna w metrze stała z mamą, mega strach ale stwierdziłem że chcę vyć osobą która robi pojebane rzeczy więc muszę przezwyciężyć strach, i podszedłem z komplementem, niesamowita ulga po zrobieniu tego, takie rzeczy robię dla siebie dosłownie. Druga, chciał3m zagadać ale laska spojrzała na mnie i przyśpieszyła kroku ale dzięki temu zauważył3m że z twarzy średnia i znowu ulga że sprawdziłem</p>
+<p dir="auto">Dobra kolejna, podszedłem do niej, komplement "fajnie wyglądasz", rockowy styl i znowu trafiłem, przedstawiłem się, i zapytałem czy jest z Warszawy, ona powiedziała że bardzo jej miło ale nie jest zainteresowana, - ja mogłem "przecież jeszcze nic nie zaproponowałem haha" dodając humor, i trochę za mało rozmowy wziąłem na siebie</p>
+<p dir="auto">Czwarta laska, podszedłem, bo wydawało mi się że się do mnie uśmiechnęła, i widziałem jej twarz przez ułamek sekundy, poleciałem za nią, była bardzo nieresponsywna<br>
+Ale tu już poszedł tekst że nic nie proponowałem, powiedziała że nic nie szuka ale podziękowała, więc spoko, a 8 była słaba z twarzy</p>
+<p dir="auto">Sklep przy kasie przede mną stały 2 laski z jedną gdzieś się złapaliśmy wzrokowo i wiadomo ucieczka oczami, ja stanąłem lekko bokiem i czekaliśmy w kolejce, ale się skapnąłem że halo kurwa nie ma nic złego ani dziwnego że będę sobie na nią patrzeć i na jej włosy, ona poczuła mój wzrok i zaczęła lekko stawać tyłem, na ostatnią chwilę podbiłem z tym że ma ładne loki, uśmiechnęła się a ja zająłem się zakupami, i co i kurwa robię to do czego czułem pociąg i wcale nie ma nic złego że sobie na laskę popatrzę, i to jest przyjemne dla obu stron, więc wychodzi na to że robienie tego czego chce jest dla dziewczyn przyjemne</p>
+<p dir="auto">Wręcz przeciwnie laska czuła by dyskomfort, gdybym patrzył i nic nie powiedział, że skoro siedzi cicho to pewnie jest dziwakiem, potem jeszcze wychodząc z metra zagadałem zkomplementowałem laskę która była wyższa ode mnie a miała mega eługie włosy, tak dosłownie ponat metr, na komplement usmiechneła się i powiedziała dziękuję panu i chyba faktycznie była jakąś 16tką, w autobusie zobaczyłem Paulinę z 5 i dosiadłem się i w tedy dopiero poznałem jej imię,8 w pogadaliśmy sobie całą drogę</p></span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/10/D/2026-10-03.md" data-href="Dziennik/2026/10/D/2026-10-03.md" href="Dziennik/2026/10/D/2026-10-03.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-10-03</a></span></h5><p><span><p dir="auto">Zauważyłem laskę w płaszczu- 2 krok</p>
+<p dir="auto">Potem laskę mega ciekawie ubraną, weszła do sklepu z majtkami, odpuściłem ale wróciłem i zagadałem gdy wyszła, i ona po angielsku, i coś wydukałem że fajnie wygląda ale i że fajny ma styl ale nie udało mi się przebić bariery językowej, ma tego byłem mega zestresowany, ale w sumie laska nie odeszła sam zrezygnowałem</p>
+<p dir="auto">Ale i tak mega dobrze super akcja </p>
+<p dir="auto">Druga dziewczyna- o Jezu trochę się spaliłem powiedziałem miły komplement, po czym totalna zaniecha, ale laska okazała się słaba z twarzy co dało MID interakcję</p>
+<p dir="auto">Trzecia ciemno ubraną, z hello kity na torbie<br>
+Chwila rozmowy o muzyce<br>
+Ale za bardzo dałem rozmowę po jej stronie za mało opowiedziałem o sobie, laska sama odeszła, ale otwieracz i zwrócenie uwagi na styl to bingo.Laska od razu się zobudziła po zauważeniu że ma hellokity</p></span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/10/D/2026-10-04.md" data-href="Dziennik/2026/10/D/2026-10-04.md" href="Dziennik/2026/10/D/2026-10-04.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-10-04</a></span></h5><p><span><p dir="auto">Na początku spytałem się żgających lasek czy git wszystko tak w ramach otworzenia się</p>
+<p dir="auto">Potem długo nic, parę 2 kroków ale nic więcej w końcu udało się zagadać i zrobić bardzo krótka interakcję ale laska odeszła, była z przyjaciółką,<br>
+Potem zagadają Ukrainka przy gitarach pod pałacem</p>
+<p dir="auto">Rezygnacja że chujowo idzie<br>
+Więc siadło jeszcze podejście jedno, laska zero reakcji, ale życzyła mi miłego dnia i w sumie to ja uciekłem z interakcji<br>
+I faktycznie było tak że idę już, no ale jeszcze jedno obejście galeria nie zaszkodzi </p>
+<p dir="auto">I kolejna i tu było że no ładne miało loki serio<br>
+Zdjęła słuchawki ale nawet się nie zatrzymała,<br>
+totalna zlewka, ale mnie to tylko 4ozbawiło </p>
+<p dir="auto">I po wyjściu z metra poszedłem za jedną laską, i w sumie trochę za nią szedłem chyba zaczęła się mnie obawiać, dałem jej komplement od serduszka, lekko zmieszana była ale fajnie, powiedziała że to miłe </p>
+<p dir="auto">Dobra i chyba piąta, podszedłem i od razu powiedziała coś pod nosem nie nie nie i pogroziła palcem i szybko odeszła</p></span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/10/D/2026-10-09.md" data-href="Dziennik/2026/10/D/2026-10-09.md" href="Dziennik/2026/10/D/2026-10-09.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-10-09</a></span></h5><p><span>Podszedłem do laski nawet mi się jakoś super nie podobało, pomyślałem jedynie że jest szansa że jest altką, i po prostu podszedłem i tye, lekko odczułem kosza, i potem dalej zajebiście się bawiłem z Niżynką na Siłce</span></p><h5><span><a data-tooltip-position="top" aria-label="Dziennik/2026/10/D/2026-10-10.md" data-href="Dziennik/2026/10/D/2026-10-10.md" href="Dziennik/2026/10/D/2026-10-10.md" class="internal-link" target="_blank" rel="noopener nofollow">2026-10-10</a></span></h5><p><span><p dir="auto">Pierwsze podejście po wyjściu z metra, laska nie była zainteresowana ale ja elegancki stałem w interakcji mimo że miała chłopa, nie była zainteresowana</p>
+<p dir="auto">Druga, Komplement nie zatrzymała się i uciekła, ale podziękowała</p>
+<p dir="auto">Trzecia, jak tylko ją zobaczyłem instynkt był od razu trochę za nią szedłem gdy się zrównałem to pomyślałem że jest za stara, ale potem stwierdziłem że przecież ja też staro wyglądam XD, a komplement za zrobienie na mnie wrażenia jej się należy, powiedziała że ma chłopaka, a ja że po prostu zrobiła spore wrażenie </p>
+<p dir="auto">Czwarta, Wyszedłem za nią z galerii, po komplemencie była zadowolona, chętnie się zatrzymała, pozytywnie nastawiona, mimo mojego rozpoczęcia Co porabiasz, może nawet nie był taki zły, jest w Warszawie na kursie baristy. Musiała iść ale była mega zadowolona z interakcji. Ale mogłem dużo więcej o siebie mówić </p>
+<p dir="auto">Piąta, stważy vyła brzydka ale za włosy należał jej się komplement, sama powiedziała że często słyszy że ma długie włosy </p>
+<p dir="auto">Spotkałem tak uroczego pieska w metrze Jezu, tak uroczo spał w torbie potem wstał i na mnie patrzył, Jego właścicielka powiedziała mi dowodzenia gdy wychodziła, a mało brakło to bym nic nie powiedział</p>
+<p dir="auto">Poszedłem za laską która mijałem na wyjściu z metra, i pomyślałem że fajnie ubraną ale z twarzy średnia i poszliśmy w innych kierunkach ale szybko się zreflektowałem i było takie 'ja nie podejdę haha', i była ciekawa scena że ona suneła się po schodach ruchomych a ja szedłem obok po zwykłych i do niej że fajnie wygląda, super scena, ale nie poczekałem na nią i poszedłem w swoją stronę</p></span></p></div>
+  </body>
+</html>
